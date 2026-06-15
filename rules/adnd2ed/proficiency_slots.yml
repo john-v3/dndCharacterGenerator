@@ -1,0 +1,36 @@
+proficiencySlots:
+  fighter:
+    weapon:
+      initial: 4
+      perLevels: 3
+      penalty: -2
+    nonWeapon:
+      initial: 3
+      perLevels: 3
+
+  wizard:
+    weapon:
+      initial: 1
+      perLevels: 6
+      penalty: -5
+    nonWeapon:
+      initial: 4
+      perLevels: 3
+
+  priest:
+    weapon:
+      initial: 2
+      perLevels: 4
+      penalty: -3
+    nonWeapon:
+      initial: 4
+      perLevels: 3
+
+  thief:
+    weapon:
+      initial: 2
+      perLevels: 4
+      penalty: -3
+    nonWeapon:
+      initial: 3
+      perLevels: 4

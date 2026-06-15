@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    padding: 12mm;
+    box-sizing: border-box;
+  }
+
+  .header {
+    border: 1px solid #000;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .box {
+    border: 1px solid #000;
+    padding: 6px;
+    flex: 1;
+  }
+
+  .field {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+  }
+
+  .line {
+    border-bottom: 1px solid #000;
+    flex: 1;
+    margin-left: 6px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+
+  td, th {
+    border: 1px solid #000;
+    padding: 2px;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .big-box {
+    border: 1px solid #000;
+    height: 120px;
+  }
+
+  .wide-box {
+    border: 1px solid #000;
+    height: 180px;
+  }
+</style>
+</head>
+
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="field">Character <div class="line"></div></div>
+    <div class="field">Name <div class="line"></div></div>
+    <div class="row">
+      <div class="field">Race <div class="line"></div></div>
+      <div class="field">Class <div class="line"></div></div>
+      <div class="field">Level <div class="line"></div></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="box">
+      <b>Abilities</b>
+      <table>
+        <tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHR</th></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </table>
+    </div>
+
+    <div class="box">
+      <b>Movement</b>
+      <div class="field">Base <div class="line"></div></div>
+      <div class="field">Light <div class="line"></div></div>
+      <div class="field">Heavy <div class="line"></div></div>
+    </div>
+
+    <div class="box">
+      <b>Saves</b>
+      <div>Paralyze</div>
+      <div>Poison</div>
+      <div>Spells</div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top:10px;">
+    <div class="box">
+      <b>Armor</b>
+      <div class="big-box"></div>
+    </div>
+
+    <div class="box">
+      <b>Hit Points</b>
+      <div class="big-box"></div>
+    </div>
+  </div>
+
+  <div class="box" style="margin-top:10px;">
+    <b>Weapon Chart</b>
+    <table>
+      <tr>
+        <th>Weapon</th><th>Atk</th><th>Dmg</th><th>Range</th><th>Type</th>
+      </tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
+  </div>
+
+  <div class="grid-2" style="margin-top:10px;">
+    <div class="box">
+      <b>Special Abilities</b>
+      <div class="wide-box"></div>
+    </div>
+
+    <div class="box">
+      <b>Skills / Languages</b>
+      <div class="wide-box"></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

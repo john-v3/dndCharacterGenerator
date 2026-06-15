@@ -1,0 +1,868 @@
+# Source: AD&D 2nd Edition Player's Handbook, Table 44: Equipment
+#
+# cost and weight are free-form reference strings for the player to read;
+# they are not consumed mechanically by the generator.
+#
+# Footnote markers preserved from the source table:
+#   "*"  - item weighs little individually; ten of these weigh one pound
+#   "**" - item weighs a negligible amount (separate PHB footnote, not
+#          fully visible in source table - verify against full PHB text)
+#   "-"  - no listed cost/weight (negligible or not applicable)
+
+gear:
+  # --- Clothing ---
+  - name: Belt
+    category: "Clothing"
+    cost: "3 sp"
+    probabilityWeight: 3
+  - name: Boots, riding
+    category: "Clothing"
+    cost: "3 gp"
+    probabilityWeight: 3
+  - name: Boots, soft
+    category: "Clothing"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Breeches
+    category: "Clothing"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: Cap, hat
+    category: "Clothing"
+    cost: "1 sp"
+    probabilityWeight: 3
+  - name: Cloak, good cloth
+    category: "Clothing"
+    cost: "8 sp"
+    probabilityWeight: 3
+  - name: Cloak, fine fur
+    category: "Clothing"
+    cost: "50 gp"
+    probabilityWeight: 3
+  - name: Girdle
+    category: "Clothing"
+    cost: "3 gp"
+    probabilityWeight: 3
+  - name: Gloves
+    category: "Clothing"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Gown, common
+    category: "Clothing"
+    cost: "12 sp"
+    probabilityWeight: 3
+  - name: Hose
+    category: "Clothing"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: Knife sheath
+    category: "Clothing"
+    cost: "3 cp"
+    probabilityWeight: 3
+  - name: Mittens
+    category: "Clothing"
+    cost: "3 sp"
+    probabilityWeight: 3
+  - name: Pin
+    category: "Clothing"
+    cost: "6 gp"
+    probabilityWeight: 3
+  - name: Plain brooch
+    category: "Clothing"
+    cost: "10 gp"
+    probabilityWeight: 3
+  - name: Robe, common
+    category: "Clothing"
+    cost: "9 sp"
+    probabilityWeight: 3
+  - name: Robe, embroidered
+    category: "Clothing"
+    cost: "20 gp"
+    probabilityWeight: 3
+  - name: Sandals
+    category: "Clothing"
+    cost: "5 cp"
+    probabilityWeight: 3
+  - name: Sash
+    category: "Clothing"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Shoes
+    category: "Clothing"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Silk jacket
+    category: "Clothing"
+    cost: "80 gp"
+    probabilityWeight: 3
+  - name: Surcoat
+    category: "Clothing"
+    cost: "6 sp"
+    probabilityWeight: 3
+  - name: Sword scabbard, hanger, baldric
+    category: "Clothing"
+    cost: "4 gp"
+    probabilityWeight: 3
+  - name: Tabard
+    category: "Clothing"
+    cost: "6 sp"
+    probabilityWeight: 3
+  - name: Toga, coarse
+    category: "Clothing"
+    cost: "8 cp"
+    probabilityWeight: 3
+  - name: Tunic
+    category: "Clothing"
+    cost: "8 sp"
+    probabilityWeight: 3
+  - name: Vest
+    category: "Clothing"
+    cost: "6 sp"
+    probabilityWeight: 3
+
+  # --- Daily Food and Lodging ---
+  - name: Ale (per gallon)
+    category: "Daily Food and Lodging"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Banquet (per person)
+    category: "Daily Food and Lodging"
+    cost: "10 gp"
+    probabilityWeight: 3
+  - name: Bread
+    category: "Daily Food and Lodging"
+    cost: "5 cp"
+    probabilityWeight: 3
+  - name: Cheese
+    category: "Daily Food and Lodging"
+    cost: "4 sp"
+    probabilityWeight: 3
+  - name: City rooms, common (per month)
+    category: "Daily Food and Lodging"
+    cost: "20 gp"
+    probabilityWeight: 3
+  - name: City rooms, poor (per month)
+    category: "Daily Food and Lodging"
+    cost: "6 sp"
+    probabilityWeight: 3
+  - name: Common wine (per pitcher)
+    category: "Daily Food and Lodging"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Egg or fresh vegetables
+    category: "Daily Food and Lodging"
+    cost: "1 cp"
+    probabilityWeight: 3
+  - name: Grain and stabling for horse (daily)
+    category: "Daily Food and Lodging"
+    cost: "5 sp"
+    probabilityWeight: 3
+  - name: Honey
+    category: "Daily Food and Lodging"
+    cost: "5 sp"
+    probabilityWeight: 3
+  - name: Inn lodging, common (per day/week)
+    category: "Daily Food and Lodging"
+    cost: "5 sp/3 gp"
+    probabilityWeight: 3
+  - name: Inn lodging, poor (per day/week)
+    category: "Daily Food and Lodging"
+    cost: "5 cp/2 sp"
+    probabilityWeight: 3
+  - name: Meals, good (per day)
+    category: "Daily Food and Lodging"
+    cost: "5 sp"
+    probabilityWeight: 3
+  - name: Meals, common (per day)
+    category: "Daily Food and Lodging"
+    cost: "3 sp"
+    probabilityWeight: 3
+  - name: Meals, poor (per day)
+    category: "Daily Food and Lodging"
+    cost: "1 sp"
+    probabilityWeight: 3
+  - name: Separate latrine for rooms (per month)
+    category: "Daily Food and Lodging"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: Small beer (per gallon)
+    category: "Daily Food and Lodging"
+    cost: "5 cp"
+    probabilityWeight: 3
+  - name: Soup
+    category: "Daily Food and Lodging"
+    cost: "1 sp"
+    probabilityWeight: 3
+
+  # --- Household Provisioning ---
+  - name: Barrel of pickled fish
+    category: "Household Provisioning"
+    cost: "3 cp"
+    probabilityWeight: 3
+  - name: Butter (per lb.)
+    category: "Household Provisioning"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Coarse sugar (per lb.)
+    category: "Household Provisioning"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Dry rations (per week)
+    category: "Household Provisioning"
+    cost: "10 gp"
+    probabilityWeight: 3
+  - name: Eggs (per 100)
+    category: "Household Provisioning"
+    cost: "8 sp"
+    probabilityWeight: 3
+  - name: Eggs (per two dozen)
+    category: "Household Provisioning"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Figs (per lb.)
+    category: "Household Provisioning"
+    cost: "3 sp"
+    probabilityWeight: 3
+  - name: Firewood (per day)
+    category: "Household Provisioning"
+    cost: "1 cp"
+    probabilityWeight: 3
+  - name: Herbs (per lb.)
+    category: "Household Provisioning"
+    cost: "5 sp"
+    probabilityWeight: 3
+  - name: Nuts (per lb.)
+    category: "Household Provisioning"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Raisins (per lb.)
+    category: "Household Provisioning"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Rice (per lb.)
+    category: "Household Provisioning"
+    cost: "2 sp"
+    probabilityWeight: 3
+  - name: Salt (per lb.)
+    category: "Household Provisioning"
+    cost: "1 sp"
+    probabilityWeight: 3
+  - name: Salted herring (per 100)
+    category: "Household Provisioning"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: "Spice, exotic (e.g., saffron, clove) (per lb.)"
+    category: "Household Provisioning"
+    cost: "15 gp"
+    probabilityWeight: 3
+  - name: "Spice, rare (e.g., pepper, ginger) (per lb.)"
+    category: "Household Provisioning"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: "Spice, uncommon (cinnamon) (per lb.)"
+    category: "Household Provisioning"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Tun of cider (250 gal.)
+    category: "Household Provisioning"
+    cost: "8 gp"
+    probabilityWeight: 3
+  - name: Tun of good wine (250 gal.)
+    category: "Household Provisioning"
+    cost: "20 gp"
+    probabilityWeight: 3
+
+  # --- Tack and Harness ---
+  - name: Barding, chain
+    category: "Tack and Harness"
+    cost: "500 gp"
+    probabilityWeight: 3
+    weight: "70"
+  - name: Barding, full plate
+    category: "Tack and Harness"
+    cost: "2,000 gp"
+    probabilityWeight: 3
+    weight: "85"
+  - name: Barding, full scale
+    category: "Tack and Harness"
+    cost: "1,000 gp"
+    probabilityWeight: 3
+    weight: "75"
+  - name: Barding, half brigandine
+    category: "Tack and Harness"
+    cost: "500 gp"
+    probabilityWeight: 3
+    weight: "45"
+  - name: Barding, half padded
+    category: "Tack and Harness"
+    cost: "100 gp"
+    probabilityWeight: 3
+    weight: "25"
+  - name: Barding, half scaled
+    category: "Tack and Harness"
+    cost: "500 gp"
+    probabilityWeight: 3
+    weight: "50"
+  - name: Barding, leather or padded
+    category: "Tack and Harness"
+    cost: "150 gp"
+    probabilityWeight: 3
+    weight: "60"
+  - name: Bit and bridle
+    category: "Tack and Harness"
+    cost: "15 sp"
+    probabilityWeight: 3
+    weight: "3"
+  - name: Cart harness
+    category: "Tack and Harness"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Halter
+    category: "Tack and Harness"
+    cost: "5 cp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Horseshoes & shoeing
+    category: "Tack and Harness"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Saddle, pack
+    category: "Tack and Harness"
+    cost: "5 gp"
+    probabilityWeight: 3
+    weight: "15"
+  - name: Saddle, riding
+    category: "Tack and Harness"
+    cost: "10 gp"
+    probabilityWeight: 3
+    weight: "35"
+  - name: Saddle bags, large
+    category: "Tack and Harness"
+    cost: "4 gp"
+    probabilityWeight: 3
+    weight: "8"
+  - name: Saddle bags, small
+    category: "Tack and Harness"
+    cost: "3 gp"
+    probabilityWeight: 3
+    weight: "5"
+  - name: Saddle blanket
+    category: "Tack and Harness"
+    cost: "3 sp"
+    probabilityWeight: 3
+    weight: "4"
+  - name: Yoke, horse
+    category: "Tack and Harness"
+    cost: "5 gp"
+    probabilityWeight: 3
+    weight: "15"
+  - name: Yoke, ox
+    category: "Tack and Harness"
+    cost: "3 gp"
+    probabilityWeight: 3
+    weight: "20"
+
+  # --- Transport ---
+  - name: Barge
+    category: "Transport"
+    cost: "500 gp"
+    probabilityWeight: 3
+  - name: Canoe, small
+    category: "Transport"
+    cost: "30 gp"
+    probabilityWeight: 3
+  - name: Canoe, war
+    category: "Transport"
+    cost: "50 gp"
+    probabilityWeight: 3
+  - name: Caravel
+    category: "Transport"
+    cost: "10,000 gp"
+    probabilityWeight: 3
+  - name: Carriage, common
+    category: "Transport"
+    cost: "150 gp"
+    probabilityWeight: 3
+  - name: Carriage, coach (ornamented)
+    category: "Transport"
+    cost: "7,000 gp"
+    probabilityWeight: 3
+  - name: Chariot, riding
+    category: "Transport"
+    cost: "200 gp"
+    probabilityWeight: 3
+  - name: Chariot, war
+    category: "Transport"
+    cost: "500 gp"
+    probabilityWeight: 3
+  - name: Coaster
+    category: "Transport"
+    cost: "5,000 gp"
+    probabilityWeight: 3
+  - name: Cog
+    category: "Transport"
+    cost: "10,000 gp"
+    probabilityWeight: 3
+  - name: Curragh
+    category: "Transport"
+    cost: "500 gp"
+    probabilityWeight: 3
+  - name: Drakkar
+    category: "Transport"
+    cost: "25,000 gp"
+    probabilityWeight: 3
+  - name: Dromond
+    category: "Transport"
+    cost: "15,000 gp"
+    probabilityWeight: 3
+  - name: Galleon
+    category: "Transport"
+    cost: "50,000 gp"
+    probabilityWeight: 3
+  - name: Great galley
+    category: "Transport"
+    cost: "30,000 gp"
+    probabilityWeight: 3
+  - name: Knarr
+    category: "Transport"
+    cost: "3,000 gp"
+    probabilityWeight: 3
+  - name: Longship
+    category: "Transport"
+    cost: "10,000 gp"
+    probabilityWeight: 3
+  - name: Oar, common
+    category: "Transport"
+    cost: "-"
+    probabilityWeight: 3
+  - name: Oar, galley
+    category: "Transport"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: Raft or small keelboat
+    category: "Transport"
+    cost: "10 gp"
+    probabilityWeight: 3
+  - name: Sail
+    category: "Transport"
+    cost: "20 gp"
+    probabilityWeight: 3
+  - name: Sedan chair
+    category: "Transport"
+    cost: "100 gp"
+    probabilityWeight: 3
+  - name: Wagon or cart wheel
+    category: "Transport"
+    cost: "100 gp"
+    probabilityWeight: 3
+
+  # --- Miscellaneous Equipment ---
+  - name: Backpack
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "2"
+  - name: Barrel, small
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "30"
+  - name: Basket, large
+    category: "Miscellaneous Equipment"
+    cost: "3 sp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Basket, small
+    category: "Miscellaneous Equipment"
+    cost: "5 cp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Bell
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Belt pouch, large
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Belt pouch, small
+    category: "Miscellaneous Equipment"
+    cost: "7 sp"
+    probabilityWeight: 3
+    weight: "1/2"
+  - name: Block and tackle
+    category: "Miscellaneous Equipment"
+    cost: "5 gp"
+    probabilityWeight: 3
+    weight: "5"
+  - name: Bolt case
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Bucket
+    category: "Miscellaneous Equipment"
+    cost: "5 sp"
+    probabilityWeight: 3
+    weight: "3"
+  - name: Chain (per ft.), heavy
+    category: "Miscellaneous Equipment"
+    cost: "4 gp"
+    probabilityWeight: 3
+    weight: "3"
+  - name: Chain (per ft.), light
+    category: "Miscellaneous Equipment"
+    cost: "3 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Chest, large
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "25"
+  - name: Chest, small
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Cloth (per 10 sq. yds.), common
+    category: "Miscellaneous Equipment"
+    cost: "7 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Cloth (per 10 sq. yds.), fine
+    category: "Miscellaneous Equipment"
+    cost: "50 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Cloth (per 10 sq. yds.), rich
+    category: "Miscellaneous Equipment"
+    cost: "100 gp"
+    probabilityWeight: 3
+    weight: "10"
+  - name: Candle
+    category: "Miscellaneous Equipment"
+    cost: "1 cp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Canvas (per sq. yard)
+    category: "Miscellaneous Equipment"
+    cost: "4 sp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Chalk
+    category: "Miscellaneous Equipment"
+    cost: "1 cp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Crampons
+    category: "Miscellaneous Equipment"
+    cost: "4 gp"
+    probabilityWeight: 3
+    weight: "2"
+  - name: Fishhook
+    category: "Miscellaneous Equipment"
+    cost: "1 sp"
+    probabilityWeight: 3
+    weight: "**"
+  - name: Fishing net, 10 ft. sq.
+    category: "Miscellaneous Equipment"
+    cost: "4 gp"
+    probabilityWeight: 3
+    weight: "5"
+  - name: Flint and steel
+    category: "Miscellaneous Equipment"
+    cost: "5 sp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Glass bottle
+    category: "Miscellaneous Equipment"
+    cost: "10 gp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Grappling hook
+    category: "Miscellaneous Equipment"
+    cost: "8 sp"
+    probabilityWeight: 3
+    weight: "4"
+  - name: "Holy item (symbol, water, etc.)"
+    category: "Miscellaneous Equipment"
+    cost: "-"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Hourglass
+    category: "Miscellaneous Equipment"
+    cost: "25 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Iron pot
+    category: "Miscellaneous Equipment"
+    cost: "5 sp"
+    probabilityWeight: 3
+    weight: "2"
+  - name: Ladder, 10 ft.
+    category: "Miscellaneous Equipment"
+    cost: "5 cp"
+    probabilityWeight: 3
+    weight: "20"
+  - name: Lantern, beacon
+    category: "Miscellaneous Equipment"
+    cost: "150 gp"
+    probabilityWeight: 3
+    weight: "50"
+  - name: Lantern, bullseye
+    category: "Miscellaneous Equipment"
+    cost: "12 gp"
+    probabilityWeight: 3
+    weight: "3"
+  - name: Lantern, hooded
+    category: "Miscellaneous Equipment"
+    cost: "7 gp"
+    probabilityWeight: 3
+    weight: "2"
+  - name: Lock, good
+    category: "Miscellaneous Equipment"
+    cost: "100 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Lock, poor
+    category: "Miscellaneous Equipment"
+    cost: "20 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Magnifying glass
+    category: "Miscellaneous Equipment"
+    cost: "100 gp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Map or scroll case
+    category: "Miscellaneous Equipment"
+    cost: "8 sp"
+    probabilityWeight: 3
+    weight: "1/2"
+  - name: Merchant's scale
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Mirror, small metal
+    category: "Miscellaneous Equipment"
+    cost: "10 gp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Musical instrument
+    category: "Miscellaneous Equipment"
+    cost: "5-100 gp"
+    probabilityWeight: 3
+    weight: "1/2-3"
+  - name: Oil (per flask), common
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Oil (per flask), greek fire
+    category: "Miscellaneous Equipment"
+    cost: "10 gp"
+    probabilityWeight: 3
+    weight: "2"
+  - name: Oil (per flask), lamp
+    category: "Miscellaneous Equipment"
+    cost: "6 cp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Paper (per sheet)
+    category: "Miscellaneous Equipment"
+    cost: "1 cp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Papyrus (per sheet)
+    category: "Miscellaneous Equipment"
+    cost: "2 gp"
+    probabilityWeight: 3
+    weight: "**"
+  - name: Parchment (per sheet)
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "-"
+  - name: Perfume (per vial)
+    category: "Miscellaneous Equipment"
+    cost: "5 gp"
+    probabilityWeight: 3
+    weight: "*"
+  - name: Piton
+    category: "Miscellaneous Equipment"
+    cost: "3 cp"
+    probabilityWeight: 3
+    weight: "1/2"
+  - name: Quiver
+    category: "Miscellaneous Equipment"
+    cost: "8 sp"
+    probabilityWeight: 3
+    weight: "1"
+  - name: Rope (per 50 ft.), hemp
+    category: "Miscellaneous Equipment"
+    cost: "1 gp"
+    probabilityWeight: 3
+    weight: "20"
+  - name: Rope (per 50 ft.), silk
+    category: "Miscellaneous Equipment"
+    cost: "10 gp"
+    probabilityWeight: 3
+    weight: "8"
+  - name: Sack, large
+    category: "Miscellaneous Equipment"
+    cost: "2 sp"
+    probabilityWeight: 3
+    weight: "1/2"
+  - name: Sack, small
+    category: "Miscellaneous Equipment"
+    cost: "5 cp"
+    probabilityWeight: 3
+    weight: "*"
+
+  # --- Animals ---
+  - name: Boar
+    category: "Animals"
+    cost: "10 gp"
+    probabilityWeight: 3
+  - name: Bull
+    category: "Animals"
+    cost: "20 gp"
+    probabilityWeight: 3
+  - name: Calf
+    category: "Animals"
+    cost: "5 gp"
+    probabilityWeight: 3
+  - name: Camel
+    category: "Animals"
+    cost: "50 gp"
+    probabilityWeight: 3
+  - name: Capon
+    category: "Animals"
+    cost: "3 cp"
+    probabilityWeight: 3
+  - name: Cat
+    category: "Animals"
+    cost: "1 sp"
+    probabilityWeight: 3
+  - name: Chicken
+    category: "Animals"
+    cost: "2 cp"
+    probabilityWeight: 3
+  - name: Cow
+    category: "Animals"
+    cost: "-"
+    probabilityWeight: 3
+  - name: Dog, guard
+    category: "Animals"
+    cost: "25 gp"
+    probabilityWeight: 3
+  - name: Dog, hunting
+    category: "Animals"
+    cost: "17 gp"
+    probabilityWeight: 3
+  - name: Dog, war
+    category: "Animals"
+    cost: "20 gp"
+    probabilityWeight: 3
+  - name: Donkey, mule, or ass
+    category: "Animals"
+    cost: "8 gp"
+    probabilityWeight: 3
+  - name: Elephant, labor
+    category: "Animals"
+    cost: "200 gp"
+    probabilityWeight: 3
+  - name: Elephant, war
+    category: "Animals"
+    cost: "500 gp"
+    probabilityWeight: 3
+  - name: Falcon (trained)
+    category: "Animals"
+    cost: "1,000 gp"
+    probabilityWeight: 3
+  - name: Goat
+    category: "Animals"
+    cost: "1 gp"
+    probabilityWeight: 3
+  - name: Goose
+    category: "Animals"
+    cost: "5 cp"
+    probabilityWeight: 3
+  - name: Guinea hen
+    category: "Animals"
+    cost: "2 cp"
+    probabilityWeight: 3
+  - name: Horse, draft
+    category: "Animals"
+    cost: "-"
+    probabilityWeight: 3
+  - name: Horse, heavy war
+    category: "Animals"
+    cost: "400 gp"
+    probabilityWeight: 3
+  - name: Horse, light war
+    category: "Animals"
+    cost: "150 gp"
+    probabilityWeight: 3
+  - name: Horse, medium war
+    category: "Animals"
+    cost: "225 gp"
+    probabilityWeight: 3
+  - name: Horse, riding
+    category: "Animals"
+    cost: "75 gp"
+    probabilityWeight: 3
+  - name: "Hunting cat (jaguar, etc.)"
+    category: "Animals"
+    cost: "5,000 gp"
+    probabilityWeight: 3
+  - name: Ox
+    category: "Animals"
+    cost: "15 gp"
+    probabilityWeight: 3
+  - name: Partridge
+    category: "Animals"
+    cost: "5 cp"
+    probabilityWeight: 3
+  - name: Peacock
+    category: "Animals"
+    cost: "5 sp"
+    probabilityWeight: 3
+  - name: Pig
+    category: "Animals"
+    cost: "3 gp"
+    probabilityWeight: 3
+  - name: Pigeon
+    category: "Animals"
+    cost: "1 cp"
+    probabilityWeight: 3
+  - name: Pigeon, homing
+    category: "Animals"
+    cost: "100 gp"
+    probabilityWeight: 3
+  - name: Pony
+    category: "Animals"
+    cost: "30 gp"
+    probabilityWeight: 3
+  - name: Ram
+    category: "Animals"
+    cost: "4 gp"
+    probabilityWeight: 3
+  - name: Sheep
+    category: "Animals"
+    cost: "2 gp"
+    probabilityWeight: 3
+  - name: Songbird
+    category: "Animals"
+    cost: "10 sp"
+    probabilityWeight: 3
+  - name: Swan
+    category: "Animals"
+    cost: "5 sp"
+    probabilityWeight: 3

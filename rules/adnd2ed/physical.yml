@@ -1,0 +1,47 @@
+hair:
+  - name: Black
+    weight: 20
+
+  - name: Brown
+    weight: 35
+
+  - name: Blonde
+    weight: 20
+
+  - name: Red
+    weight: 10
+
+  - name: Grey
+    weight: 5
+
+eyes:
+  - name: Brown
+    weight: 40
+
+  - name: Blue
+    weight: 25
+
+  - name: Green
+    weight: 15
+
+  - name: Hazel
+    weight: 15
+
+  - name: Grey
+    weight: 5
+
+appearances:
+  - name: Attractive
+    weight: 15
+
+  - name: Average
+    weight: 60
+
+  - name: Scarred
+    weight: 10
+
+  - name: Rugged
+    weight: 10
+
+  - name: Unusual
+    weight: 5

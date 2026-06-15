@@ -1,0 +1,87 @@
+classes:
+  - name: fighter
+    weight: 50
+
+    startingGold:
+      diceCount: 5
+      diceSides: 4
+      multiplier: 10
+
+    hitDie: 10
+    maxHitDieLevel: 9
+
+    hasThiefSkills: false
+    canCastArcane: false
+    canCastDivine: false
+
+    allowedAlignments:
+      - lawful good
+      - neutral good
+      - chaotic good
+      - lawful neutral
+      - true neutral
+      - chaotic neutral
+      - lawful evil
+      - neutral evil
+      - chaotic evil
+
+    minStats:
+      strength: 9
+      constitution: 7
+
+  - name: thief
+    weight: 30
+
+    startingGold:
+      diceCount: 2
+      diceSides: 6
+      multiplier: 10
+
+    hitDie: 6
+    maxHitDieLevel: 10
+
+    hasThiefSkills: true
+    canCastArcane: false
+    canCastDivine: false
+
+    allowedAlignments:
+      - lawful neutral
+      - true neutral
+      - chaotic neutral
+      - lawful evil
+      - neutral evil
+      - chaotic evil
+
+    minStats:
+      dexterity: 9
+
+
+  - name: wizard
+    weight: 20
+
+    startingGold:
+      diceCount: 2
+      diceSides: 4
+      multiplier: 10
+
+    hitDie: 4
+    maxHitDieLevel: 11
+
+    hasThiefSkills: false
+    canCastArcane: true
+    canCastDivine: false
+
+    allowedAlignments:
+      - lawful good
+      - neutral good
+      - chaotic good
+      - lawful neutral
+      - true neutral
+      - chaotic neutral
+      - lawful evil
+      - neutral evil
+      - chaotic evil
+
+    minStats:
+      intelligence: 9
+

@@ -1,0 +1,971 @@
+Spells: 
+- name: Affect Normal Fires
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Burning Hands
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Charm Person
+  level: 1
+  sphere: "Enchantment/Charm"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Comprehend Languages
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Dancing Lights
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Detect Magic
+  level: 1
+  sphere: "Divination"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Enlarge
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Erase
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Feather Fall
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Find Familiar
+  level: 1
+  sphere: "Conjuration/Summoning"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Friends
+  level: 1
+  sphere: "Enchantment/Charm"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Hold Portal
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Identify
+  level: 1
+  sphere: "Divination"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Jump
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Light
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Magic Missile
+  level: 1
+  sphere: "Evocation"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Mending
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Message
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Nystul's Magic Aura
+  level: 1
+  sphere: "Illusion/Phantasm"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Protection From Evil
+  level: 1
+  sphere: "Abjuration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Push
+  level: 1
+  sphere: "Evocation"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Read Magic
+  level: 1
+  sphere: "Divination"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Shield
+  level: 1
+  sphere: "Evocation"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Shocking Grasp
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Sleep
+  level: 1
+  sphere: "Enchantment/Charm"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Spider Climb
+  level: 1
+  sphere: "Alteration"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Tenser's Floating Disc
+  level: 1
+  sphere: "Evocation"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Unseen Servant
+  level: 1
+  sphere: "Conjuration/Summoning"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Ventriloquism
+  level: 1
+  sphere: "Illusion/Phantasm"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Write
+  level: 1
+  sphere: "Evocation"
+  weight: 3
+  allowedClasses: ["wizard"]
+- name: Audible Glamer
+  level: 2
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Continual Light
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Darkness 15 foot Radius
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Detect Evil
+  level: 2
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Detect Invisibility
+  level: 2
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: ESP
+  level: 2
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fools Gold
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Forget
+  level: 2
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Invisibility
+  level: 2
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Knock
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Leomund's Trap
+  level: 2
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Levitate
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Locate Object
+  level: 2
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Magic Mouth
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Mirror Image
+  level: 2
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Pyrotechnics
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Ray Of Enfeeblement
+  level: 2
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Rope Trick
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Scare
+  level: 2
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Shatter
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Stinking Cloud
+  level: 2
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Strength
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Web
+  level: 2
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wizard Lock
+  level: 2
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Blink
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Clairaudience
+  level: 3
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Clairvoyance
+  level: 3
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Dispel Magic
+  level: 3
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Explosive Runes
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Feign Death
+  level: 3
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fireball
+  level: 3
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Flame Arrow
+  level: 3
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fly
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Gust Of Wind
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Haste
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Hold Person
+  level: 3
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Infravision
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Invisibility 10 foot Radius
+  level: 3
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Leomund's Tiny Hut
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Lightning Bolt
+  level: 3
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Monster Summoning I
+  level: 3
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Phantasmal Force
+  level: 3
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Protection From Evil 10 foot Radius
+  level: 3
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Protection From Normal Missiles
+  level: 3
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Slow
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Suggestion
+  level: 3
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Tongues
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Water Breathing
+  level: 3
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Charm Monster
+  level: 4
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Confusion
+  level: 4
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Dig
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Dimension Door
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Enchanted Weapon
+  level: 4
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Extension I
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fear
+  level: 4
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fire Charm
+  level: 4
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fire Shield
+  level: 4
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fire Trap
+  level: 4
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Fumble
+  level: 4
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Hallucinatory Terrain
+  level: 4
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Ice Storm
+  level: 4
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Massmorph
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Minor Globe of Invulnerability
+  level: 4
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Monster Summoning II
+  level: 4
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Plant Growth
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Polymorph Other
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Polymorph Self
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Rary's Mnemonic Enhancer
+  level: 4
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Remove Curse
+  level: 4
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wall Of Fire
+  level: 4
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wall Of Ice
+  level: 4
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wizard Eye
+  level: 4
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Airy Water
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Animal Growth
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Animate Dead
+  level: 5
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Bigby's Interposing Hand
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Cloudkill
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Conjure Elemental
+  level: 5
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Cone Of Cold
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Contact Other Plane
+  level: 5
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Distance Distortion
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Extension II
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Feeblemind
+  level: 5
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Hold Monster
+  level: 5
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Leomund's Secret Chest
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Magic Jar
+  level: 5
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Monster Summoning III
+  level: 5
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Mordenkainen's Faithful Hound
+  level: 5
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Passwall
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Stone Shape
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Telekinesis
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Teleport
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Transmute Rock To Mud
+  level: 5
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wall Of Force
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wall Of Iron
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Wall Of Stone
+  level: 5
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Anti-Magic Shell
+  level: 6
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Bigby's Forceful Hand
+  level: 6
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Control Weather
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Death Spell
+  level: 6
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Disintegrate
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Enchant An Item
+  level: 6
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Extension III
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Geas
+  level: 6
+  sphere: "Enchantment/Charm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Glassee
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Globe Of Invulnerability
+  level: 6
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Guards And Wards
+  level: 6
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Invisible Stalker
+  level: 6
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Legend Lore
+  level: 6
+  sphere: "Divination"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Lower Water
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Monster Summoning IV
+  level: 6
+  sphere: "Conjuration/Summoning"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Move Earth
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Otiluke's Freezing Sphere
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Part Water
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Project Image
+  level: 6
+  sphere: "Illusion/Phantasm"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Reincarnation
+  level: 6
+  sphere: "Necromancy"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Repulsion
+  level: 6
+  sphere: "Abjuration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Spiritwrack
+  level: 6
+  sphere: "Evocation"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Stone To Flesh
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Tenser's Transformation
+  level: 6
+  sphere: "Alteration"
+  weight: 4
+  allowedClasses: ["wizard"]
+- name: Bigby's Grasping Hand
+  level: 7
+  sphere: "Evocation"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Cacodemon
+  level: 7
+  sphere: "Conjuration/Summoning"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Charm Plants
+  level: 7
+  sphere: "Enchantment/Charm"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Delayed Blast Fireball
+  level: 7
+  sphere: "Evocation"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Drawmij's Instant Summons
+  level: 7
+  sphere: "Conjuration/Summoning"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Duo-Dimension
+  level: 7
+  sphere: "Alteration"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Limited Wish
+  level: 7
+  sphere: "Conjuration/Summoning"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Mass invisibility
+  level: 7
+  sphere: "Illusion/Phantasm"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Monster Summoning V
+  level: 7
+  sphere: "Conjuration/Summoning"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Mordenkainen's Sword
+  level: 7
+  sphere: "Evocation"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Phase Door
+  level: 7
+  sphere: "Alteration"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Power Word, Stun
+  level: 7
+  sphere: "Conjuration/Summoning"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Reverse Gravity
+  level: 7
+  sphere: "Alteration"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Simulacrum
+  level: 7
+  sphere: "Illusion/Phantasm"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Statue
+  level: 7
+  sphere: "Alteration"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Vanish
+  level: 7
+  sphere: "Alteration"
+  weight: 5
+  allowedClasses: ["wizard"]
+- name: Antipathy/Sympathy
+  level: 8
+  sphere: "Enchantment/Charm"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Bigby's Clenched Fist
+  level: 8
+  sphere: "Evocation"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Clone
+  level: 8
+  sphere: "Necromancy"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Glassteel
+  level: 8
+  sphere: "Alteration"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Incendiary Cloud
+  level: 8
+  sphere: "Evocation"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Mass Charm
+  level: 8
+  sphere: "Enchantment/Charm"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Maze
+  level: 8
+  sphere: "Conjuration/Summoning"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Mind Blank
+  level: 8
+  sphere: "Abjuration"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Monster Summoning VI
+  level: 8
+  sphere: "Conjuration/Summoning"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Otto's Irresistible Dance
+  level: 8
+  sphere: "Enchantment/Charm"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Permanency
+  level: 8
+  sphere: "Alteration"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Polymorph Any Object
+  level: 8
+  sphere: "Alteration"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Power Word, Blind
+  level: 8
+  sphere: "Conjuration/Summoning"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Serten's Spell Immunity
+  level: 8
+  sphere: "Abjuration"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Symbol
+  level: 8
+  sphere: "Conjuration/Summoning"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Trap The Soul
+  level: 8
+  sphere: "Conjuration/Summoning"
+  weight: 6
+  allowedClasses: ["wizard"]
+- name: Astral Spell
+  level: 9
+  sphere: "Evocation"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Bigby's Crushing Hand
+  level: 9
+  sphere: "Evocation"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Gate
+  level: 9
+  sphere: "Conjuration/Summoning"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Imprisonment
+  level: 9
+  sphere: "Abjuration"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Meteor Swarm
+  level: 9
+  sphere: "Evocation"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Monster Summoning VII
+  level: 9
+  sphere: "Conjuration/Summoning"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Power Word, Kill
+  level: 9
+  sphere: "Conjuration/Summoning"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Prismatic Sphere
+  level: 9
+  sphere: "Abjuration"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Shape Change
+  level: 9
+  sphere: "Alteration"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Temporal Stasis
+  level: 9
+  sphere: "Alteration"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Time Stop
+  level: 9
+  sphere: "Alteration"
+  weight: 8
+  allowedClasses: ["wizard"]
+- name: Wish
+  level: 9
+  sphere: "Conjuration/Summoning"
+  weight: 8
+  allowedClasses: ["wizard"]

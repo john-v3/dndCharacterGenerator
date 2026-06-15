@@ -1,0 +1,48 @@
+alignments:
+  - displayName: "lawful good"
+    weight: 10
+
+  - displayName: "neutral good"
+    weight: 10
+
+  - displayName: "chaotic good"
+    weight: 10
+
+  - displayName: "lawful neutral"
+    weight: 10
+
+  - displayName: "true neutral"
+    weight: 10
+
+  - displayName: "chaotic neutral"
+    weight: 10
+
+  - displayName: "lawful evil"
+    weight: 10
+
+  - displayName: "neutral evil"
+    weight: 10
+
+  - displayName: "chaotic evil"
+    weight: 10
+
+# classRestrictions:
+#   paladin:
+#     allowed:
+#       - lawful_good
+#
+#   druid:
+#     allowed:
+#       - true_neutral
+#
+#   fighter:
+#     allowed:
+#       - lawful_good
+#       - neutral_good
+#       - chaotic_good
+#       - lawful_neutral
+#       - true_neutral
+#       - chaotic_neutral
+#       - lawful_evil
+#       - neutral_evil
+#       - chaotic_evil

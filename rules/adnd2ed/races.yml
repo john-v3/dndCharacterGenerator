@@ -1,0 +1,45 @@
+races:
+  - name: Human
+    weight: 70
+
+    age:
+      min: 15
+      max: 40
+
+    height:
+      min: 60
+      max: 78
+
+    characterWeight:
+      min: 110
+      max: 250
+
+  - name: Elf
+    weight: 15
+
+    age:
+      min: 100
+      max: 350
+
+    height:
+      min: 54
+      max: 74
+
+    characterWeight:
+      min: 80
+      max: 180
+
+  # - name: Dwarf
+  #   weight: 15
+  #
+  #   age:
+  #     min: 40
+  #     max: 250
+  #
+  #   height:
+  #     min: 48
+  #     max: 60
+  #
+  #   characterWeight:
+  #     min: 120
+  #     max: 220

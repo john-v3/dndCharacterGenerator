@@ -1,0 +1,40 @@
+wisdomTable:
+  - min: 1
+    max: 5
+    magicDefenseAdjustment: -2
+    spellFailure: 80
+
+  - min: 6
+    max: 8
+    magicDefenseAdjustment: -1
+    spellFailure: 60
+
+  - min: 9
+    max: 12
+    magicDefenseAdjustment: 0
+    spellFailure: 0
+
+  - min: 13
+    max: 14
+    magicDefenseAdjustment: 0
+    spellFailure: 0
+
+  - min: 15
+    max: 15
+    magicDefenseAdjustment: 1
+    spellFailure: 0
+
+  - min: 16
+    max: 16
+    magicDefenseAdjustment: 2
+    spellFailure: 0
+
+  - min: 17
+    max: 17
+    magicDefenseAdjustment: 3
+    spellFailure: 0
+
+  - min: 18
+    max: 18
+    magicDefenseAdjustment: 4
+    spellFailure: 0

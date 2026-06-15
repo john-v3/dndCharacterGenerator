@@ -1,0 +1,108 @@
+dexterityTable:
+  - min: 1
+    max: 1
+    reactionAdjustment: -6
+    missileAttackAdjustment: -6
+    defenseAdjustment: 5
+
+  - min: 2
+    max: 2
+    reactionAdjustment: -4
+    missileAttackAdjustment: -4
+    defenseAdjustment: 5
+
+  - min: 3
+    max: 3
+    reactionAdjustment: -3
+    missileAttackAdjustment: -3
+    defenseAdjustment: 4
+
+  - min: 4
+    max: 5
+    reactionAdjustment: -2
+    missileAttackAdjustment: -2
+    defenseAdjustment: 3
+
+  - min: 6
+    max: 7
+    reactionAdjustment: -1
+    missileAttackAdjustment: -1
+    defenseAdjustment: 2
+
+  - min: 8
+    max: 13
+    reactionAdjustment: 0
+    missileAttackAdjustment: 0
+    defenseAdjustment: 0
+
+  - min: 14
+    max: 14
+    reactionAdjustment: 0
+    missileAttackAdjustment: 0
+    defenseAdjustment: -1
+
+  - min: 15
+    max: 15
+    reactionAdjustment: 0
+    missileAttackAdjustment: 0
+    defenseAdjustment: -2
+
+  - min: 16
+    max: 16
+    reactionAdjustment: 1
+    missileAttackAdjustment: 1
+    defenseAdjustment: -2
+
+  - min: 17
+    max: 17
+    reactionAdjustment: 2
+    missileAttackAdjustment: 2
+    defenseAdjustment: -3
+
+  - min: 18
+    max: 18
+    reactionAdjustment: 2
+    missileAttackAdjustment: 2
+    defenseAdjustment: -4
+
+  - min: 19
+    max: 19
+    reactionAdjustment: 3
+    missileAttackAdjustment: 3
+    defenseAdjustment: -4
+
+  - min: 20
+    max: 20
+    reactionAdjustment: 3
+    missileAttackAdjustment: 3
+    defenseAdjustment: -4
+
+  - min: 21
+    max: 21
+    reactionAdjustment: 4
+    missileAttackAdjustment: 4
+    defenseAdjustment: -5
+
+  - min: 22
+    max: 22
+    reactionAdjustment: 4
+    missileAttackAdjustment: 4
+    defenseAdjustment: -5
+
+  - min: 23
+    max: 23
+    reactionAdjustment: 4
+    missileAttackAdjustment: 4
+    defenseAdjustment: -6
+
+  - min: 24
+    max: 24
+    reactionAdjustment: 5
+    missileAttackAdjustment: 5
+    defenseAdjustment: -6
+
+  - min: 25
+    max: 25
+    reactionAdjustment: 5
+    missileAttackAdjustment: 5
+    defenseAdjustment: -6

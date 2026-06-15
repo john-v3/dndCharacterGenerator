@@ -1,0 +1,621 @@
+weaponProficiencies:
+  - name: Arquebus
+    weight: 5
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Battle axe
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger", "bard"]
+
+  - name: Blowgun
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard"]
+
+  - name: Club
+    weight: 80
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "thief", "bard"]
+
+  - name: Hand crossbow
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard"]
+
+  - name: Heavy crossbow
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Light crossbow
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard"]
+
+  - name: Dagger or dirk
+    weight: 95
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard", "wizard"]
+
+  - name: Dart
+    weight: 50
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard", "wizard"]
+
+  - name: Footman's flail
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Footman's mace
+    weight: 60
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Footman's pick
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Hand or throwing axe
+    weight: 55
+    allowedClasses: ["fighter", "paladin", "ranger", "bard"]
+
+  - name: Harpoon
+    weight: 10
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Horseman's flail
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Horseman's mace
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Horseman's pick
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Javelin
+    weight: 50
+    allowedClasses: ["fighter", "paladin", "ranger", "bard"]
+
+  - name: Knife
+    weight: 85
+    allowedClasses: ["fighter", "paladin", "ranger", "thief", "bard", "wizard"]
+
+  - name: Heavy horse lance
+    weight: 10
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Light horse lance
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Jousting lance
+    weight: 5
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Medium horse lance
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Mancatcher
+    weight: 5
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Morning star
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric"]
+
+  - name: Awl pike
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Bardiche
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Bec de corbin
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Bill-guisarme
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Fauchard
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Fauchard-fork
+    weight: 10
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+  - name: Glaive
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger"]
+
+nonWeaponProficiencies:
+  - name: Agriculture
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Animal Handling
+    weight: 35
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -1
+
+  - name: Animal Training
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Artistic Ability
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Blacksmithing
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "STR"
+    modifier: 0
+
+  - name: Brewing
+    weight: 35
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Carpentry
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "STR"
+    modifier: 0
+
+  - name: Cobbling
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Cooking
+    weight: 75
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Dancing
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Direction Sense
+    weight: 55
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: 1
+
+  - name: Etiquette
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Fire-building
+    weight: 70
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -1
+
+  - name: Fishing
+    weight: 60
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -1
+
+  - name: Heraldry
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Languages, Modern
+    weight: 50
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Leatherworking
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Mining
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -3
+
+  - name: Pottery
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: -2
+
+  - name: Riding, Airborne
+    weight: 5
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -2
+
+  - name: Riding, Land-based
+    weight: 65
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: 3
+
+  - name: Rope Use
+    weight: 50
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Seamanship
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Seamstress/Tailor
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Singing
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Stonemasonry
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "STR"
+    modifier: -2
+
+  - name: Swimming
+    weight: 65
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "STR"
+    modifier: 0
+
+  - name: Weather Sense
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "WIS"
+    modifier: -1
+
+  - name: Weaving
+    weight: 15
+    allowedClasses: ["fighter", "paladin", "ranger", "cleric", "druid", "thief", "bard", "wizard"]
+    stat: "INT"
+    modifier: -1
+
+  - name: Ancient History (Priest)
+    weight: 20
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -1
+
+  - name: Astrology
+    weight: 15
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Engineering (Priest)
+    weight: 10
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -3
+
+  - name: Healing
+    weight: 60
+    allowedClasses: ["cleric", "druid"]
+    stat: "WIS"
+    modifier: -2
+
+  - name: Herbalism (Priest)
+    weight: 45
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Languages, Ancient (Priest)
+    weight: 25
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Local History (Priest)
+    weight: 40
+    allowedClasses: ["cleric", "druid"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Musical Instrument (Priest)
+    weight: 25
+    allowedClasses: ["cleric", "druid"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Navigation (Priest)
+    weight: 15
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Reading/Writing (Priest)
+    weight: 50
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: 1
+
+  - name: Religion
+    weight: 65
+    allowedClasses: ["cleric", "druid"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Spellcraft (Priest)
+    weight: 30
+    allowedClasses: ["cleric", "druid"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Ancient History (Rogue)
+    weight: 15
+    allowedClasses: ["thief", "bard"]
+    stat: "INT"
+    modifier: -1
+
+  - name: Appraising
+    weight: 50
+    allowedClasses: ["thief", "bard"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Blind-fighting (Rogue)
+    weight: 25
+    allowedClasses: ["thief", "bard"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Disguise
+    weight: 40
+    allowedClasses: ["thief", "bard"]
+    stat: "CHA"
+    modifier: -1
+
+  - name: Forgery
+    weight: 30
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Gaming (Rogue)
+    weight: 45
+    allowedClasses: ["thief", "bard"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Gem Cutting (Rogue)
+    weight: 15
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -2
+
+  - name: Juggling
+    weight: 35
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Jumping
+    weight: 50
+    allowedClasses: ["thief", "bard"]
+    stat: "STR"
+    modifier: 0
+
+  - name: Local History (Rogue)
+    weight: 45
+    allowedClasses: ["thief", "bard"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Musical Instrument (Rogue)
+    weight: 40
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Reading Lips
+    weight: 20
+    allowedClasses: ["thief", "bard"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Set Snares (Rogue)
+    weight: 35
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Tightrope Walking
+    weight: 20
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Tumbling
+    weight: 30
+    allowedClasses: ["thief", "bard"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Ventriloquism
+    weight: 15
+    allowedClasses: ["thief", "bard"]
+    stat: "INT"
+    modifier: -1
+
+  - name: Animal Lore
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "INT"
+    modifier: 0
+
+  - name: Armorer
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Blind-fighting (Warrior)
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Bowyer/Fletcher
+    weight: 35
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Charioteering
+    weight: 10
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "DEX"
+    modifier: 0
+
+  - name: Endurance
+    weight: 55
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "CON"
+    modifier: 0
+
+  - name: Gaming (Warrior)
+    weight: 30
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "CHA"
+    modifier: 0
+
+  - name: Hunting
+    weight: 60
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "WIS"
+    modifier: -1
+
+  - name: Mountaineering
+    weight: 25
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "STR"
+    modifier: 0
+
+  - name: Navigation (Warrior)
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Running
+    weight: 40
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "CON"
+    modifier: -6
+
+  - name: Set Snares (Warrior)
+    weight: 35
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "DEX"
+    modifier: -1
+
+  - name: Survival
+    weight: 50
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Tracking
+    weight: 45
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Weaponsmithing
+    weight: 20
+    allowedClasses: ["fighter", "paladin", "ranger"]
+    stat: "INT"
+    modifier: -3
+
+  - name: Ancient History (Wizard)
+    weight: 30
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -1
+
+  - name: Astrology (Wizard)
+    weight: 25
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Engineering (Wizard)
+    weight: 20
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -3
+
+  - name: Gem Cutting (Wizard)
+    weight: 10
+    allowedClasses: ["wizard"]
+    stat: "DEX"
+    modifier: -2
+
+  - name: Herbalism (Wizard)
+    weight: 35
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Languages, Ancient (Wizard)
+    weight: 45
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Navigation (Wizard)
+    weight: 15
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -2
+
+  - name: Reading/Writing (Wizard)
+    weight: 80
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: 1
+
+  - name: Religion (Wizard)
+    weight: 35
+    allowedClasses: ["wizard"]
+    stat: "WIS"
+    modifier: 0
+
+  - name: Spellcraft (Wizard)
+    weight: 60
+    allowedClasses: ["wizard"]
+    stat: "INT"
+    modifier: -2

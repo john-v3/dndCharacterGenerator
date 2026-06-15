@@ -1,0 +1,140 @@
+thaco:
+  fighter:
+    - minLevel: 1
+      maxLevel: 1
+      value: 20
+    - minLevel: 2
+      maxLevel: 2
+      value: 19
+    - minLevel: 3
+      maxLevel: 3
+      value: 18
+    - minLevel: 4
+      maxLevel: 4
+      value: 17
+    - minLevel: 5
+      maxLevel: 5
+      value: 16
+    - minLevel: 6
+      maxLevel: 6
+      value: 15
+    - minLevel: 7
+      maxLevel: 7
+      value: 14
+    - minLevel: 8
+      maxLevel: 8
+      value: 13
+    - minLevel: 9
+      maxLevel: 9
+      value: 12
+    - minLevel: 10
+      maxLevel: 10
+      value: 11
+    - minLevel: 11
+      maxLevel: 11
+      value: 10
+    - minLevel: 12
+      maxLevel: 12
+      value: 9
+    - minLevel: 13
+      maxLevel: 13
+      value: 8
+    - minLevel: 14
+      maxLevel: 14
+      value: 7
+    - minLevel: 15
+      maxLevel: 15
+      value: 6
+    - minLevel: 16
+      maxLevel: 16
+      value: 5
+    - minLevel: 17
+      maxLevel: 17
+      value: 4
+    - minLevel: 18
+      maxLevel: 18
+      value: 3
+    - minLevel: 19
+      maxLevel: 19
+      value: 2
+    - minLevel: 20
+      maxLevel: 99
+      value: 1
+
+  thief:
+    - minLevel: 1
+      maxLevel: 2
+      value: 20
+    - minLevel: 3
+      maxLevel: 4
+      value: 19
+    - minLevel: 5
+      maxLevel: 6
+      value: 18
+    - minLevel: 7
+      maxLevel: 8
+      value: 17
+    - minLevel: 9
+      maxLevel: 10
+      value: 16
+    - minLevel: 11
+      maxLevel: 12
+      value: 15
+    - minLevel: 13
+      maxLevel: 14
+      value: 14
+    - minLevel: 15
+      maxLevel: 16
+      value: 13
+    - minLevel: 17
+      maxLevel: 18
+      value: 12
+    - minLevel: 19
+      maxLevel: 99
+      value: 11
+
+  wizard:
+    - minLevel: 1
+      maxLevel: 3
+      value: 20
+    - minLevel: 4
+      maxLevel: 6
+      value: 19
+    - minLevel: 7
+      maxLevel: 9
+      value: 18
+    - minLevel: 10
+      maxLevel: 12
+      value: 17
+    - minLevel: 13
+      maxLevel: 15
+      value: 16
+    - minLevel: 16
+      maxLevel: 18
+      value: 15
+    - minLevel: 19
+      maxLevel: 99
+      value: 14
+
+  cleric:
+    - minLevel: 1
+      maxLevel: 3
+      value: 20
+    - minLevel: 4
+      maxLevel: 6
+      value: 18
+    - minLevel: 7
+      maxLevel: 9
+      value: 16
+    - minLevel: 10
+      maxLevel: 12
+      value: 14
+    - minLevel: 13
+      maxLevel: 15
+      value: 12
+    - minLevel: 16
+      maxLevel: 18
+      value: 10
+    - minLevel: 19
+      maxLevel: 99
+      value: 8

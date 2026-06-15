@@ -1,0 +1,84 @@
+intelligenceTable:
+  - min: 1
+    max: 8
+    numberOfLanguages: 0
+    spellLevel: 0
+    learnSpell: 0
+    spellsPerLevel: 0
+
+  - min: 8
+    max: 8
+    numberOfLanguages: 1
+    spellLevel: 4
+    learnSpell: 35
+    spellsPerLevel: 6
+
+  - min: 9
+    max: 9
+    numberOfLanguages: 2
+    spellLevel: 4
+    learnSpell: 40
+    spellsPerLevel: 6
+
+  - min: 10
+    max: 10
+    numberOfLanguages: 2
+    spellLevel: 5
+    learnSpell: 45
+    spellsPerLevel: 7
+
+  - min: 11
+    max: 11
+    numberOfLanguages: 2
+    spellLevel: 5
+    learnSpell: 50
+    spellsPerLevel: 7
+
+  - min: 12
+    max: 12
+    numberOfLanguages: 3
+    spellLevel: 6
+    learnSpell: 55
+    spellsPerLevel: 7
+
+  - min: 13
+    max: 13
+    numberOfLanguages: 3
+    spellLevel: 6
+    learnSpell: 60
+    spellsPerLevel: 9
+
+  - min: 14
+    max: 14
+    numberOfLanguages: 4
+    spellLevel: 7
+    learnSpell: 65
+    spellsPerLevel: 9
+
+  - min: 15
+    max: 15
+    numberOfLanguages: 4
+    spellLevel: 7
+    learnSpell: 70
+    spellsPerLevel: 11
+
+  - min: 16
+    max: 16
+    numberOfLanguages: 5
+    spellLevel: 8
+    learnSpell: 75
+    spellsPerLevel: 11
+
+  - min: 17
+    max: 17
+    numberOfLanguages: 6
+    spellLevel: 8
+    learnSpell: 85
+    spellsPerLevel: 14
+
+  - min: 18
+    max: 18
+    numberOfLanguages: 7
+    spellLevel: 9
+    learnSpell: 95
+    spellsPerLevel: 18

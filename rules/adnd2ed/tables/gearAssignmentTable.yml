@@ -1,0 +1,26 @@
+gearAssignments:
+  fighter:
+    guaranteed:
+      - "Backpack"
+      - "Tunic"
+      - "Belt pouch, large"
+      - "Boots, soft"
+      - "Dry rations (per week)"
+    randomSlots: 3
+  wizard:
+    guaranteed:
+      - "Robe, common"
+      - "Breeches"
+      - "Belt pouch, small"
+      - "Dry rations (per week)"
+      - "Cap, hat"
+    randomSlots: 2
+  thief:
+    guaranteed:
+      - "Belt"
+      - "Tunic"
+      - "Shoes"
+      - "Dry rations (per week)"
+      - "Knife sheath"
+      - "Rope (per 50 ft.), hemp"
+    randomSlots: 5

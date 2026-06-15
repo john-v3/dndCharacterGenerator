@@ -1,0 +1,24 @@
+attributes:
+  strength:
+    diceCount: 3
+    diceSides: 6
+
+  dexterity:
+    diceCount: 3
+    diceSides: 6
+
+  constitution:
+    diceCount: 3
+    diceSides: 6
+
+  intelligence:
+    diceCount: 3
+    diceSides: 6
+
+  wisdom:
+    diceCount: 3
+    diceSides: 6
+
+  charisma:
+    diceCount: 3
+    diceSides: 6

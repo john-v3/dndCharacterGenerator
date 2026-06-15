@@ -1,0 +1,99 @@
+families:
+  - name: Farmer
+    weight: 40
+
+  - name: Merchant
+    weight: 20
+
+  - name: Soldier
+    weight: 15
+
+  - name: Craftsman
+    weight: 15
+
+  - name: Noble
+    weight: 10
+
+raceClans:
+  - name: None
+    weight: 70
+
+  - name: Oakshield
+    weight: 10
+
+  - name: Silverleaf
+    weight: 10
+
+  - name: Ironbeard
+    weight: 10
+
+homeLands:
+  - name: Village
+    weight: 50
+
+  - name: Town
+    weight: 30
+
+  - name: City
+    weight: 15
+
+  - name: Frontier
+    weight: 5
+
+patrons:
+  - name: None
+    weight: 50
+
+  - name: Local Lord
+    weight: 20
+
+  - name: Merchant Guild
+    weight: 15
+
+  - name: Wizard Mentor
+    weight: 10
+
+  - name: Temple
+    weight: 5
+
+religons:
+  - name: Tyr
+    weight: 20
+
+  - name: Helm
+    weight: 20
+
+  - name: Tempus
+    weight: 15
+
+  - name: Mystra
+    weight: 15
+
+  - name: Oghma
+    weight: 10
+
+  - name: None
+    weight: 20
+
+socialClasses:
+  - name: Peasant
+    weight: 40
+
+  - name: Commoner
+    weight: 35
+
+  - name: Merchant
+    weight: 15
+
+  - name: Noble
+    weight: 10
+
+statuses:
+  - name: Free
+    weight: 80
+
+  - name: Indentured
+    weight: 10
+
+  - name: Noble
+    weight: 10

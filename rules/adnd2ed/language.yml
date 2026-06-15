@@ -1,0 +1,30 @@
+languages:
+  - name: Common
+    weight: 100
+
+  - name: Elvish
+    weight: 30
+
+  - name: Dwarvish
+    weight: 30
+
+  - name: Halfling
+    weight: 25
+
+  - name: Orcish
+    weight: 20
+
+  - name: Gnomish
+    weight: 15
+
+  - name: Draconic
+    weight: 10
+
+  - name: Undercommon
+    weight: 5
+
+  - name: Giant
+    weight: 10
+
+  - name: Goblin
+    weight: 20

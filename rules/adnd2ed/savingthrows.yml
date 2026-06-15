@@ -1,0 +1,229 @@
+savingThrows:
+
+  fighter:
+    - minLevel: 0
+      maxLevel: 0
+      paralyzePoisonDeath: 16
+      petrifyPolymorph: 17
+      rodStaffOrWand: 18
+      breathWeapon: 20
+      spell: 19
+
+    - minLevel: 1
+      maxLevel: 2
+      paralyzePoisonDeath: 14
+      petrifyPolymorph: 15
+      rodStaffOrWand: 16
+      breathWeapon: 17
+      spell: 17
+
+    - minLevel: 3
+      maxLevel: 4
+      paralyzePoisonDeath: 13
+      petrifyPolymorph: 14
+      rodStaffOrWand: 15
+      breathWeapon: 16
+      spell: 16
+
+    - minLevel: 5
+      maxLevel: 6
+      paralyzePoisonDeath: 11
+      petrifyPolymorph: 12
+      rodStaffOrWand: 13
+      breathWeapon: 13
+      spell: 14
+
+    - minLevel: 7
+      maxLevel: 8
+      paralyzePoisonDeath: 10
+      petrifyPolymorph: 11
+      rodStaffOrWand: 12
+      breathWeapon: 12
+      spell: 13
+
+    - minLevel: 9
+      maxLevel: 10
+      paralyzePoisonDeath: 8
+      petrifyPolymorph: 9
+      rodStaffOrWand: 10
+      breathWeapon: 9
+      spell: 11
+
+    - minLevel: 11
+      maxLevel: 12
+      paralyzePoisonDeath: 7
+      petrifyPolymorph: 8
+      rodStaffOrWand: 9
+      breathWeapon: 8
+      spell: 10
+
+    - minLevel: 13
+      maxLevel: 14
+      paralyzePoisonDeath: 5
+      petrifyPolymorph: 6
+      rodStaffOrWand: 7
+      breathWeapon: 5
+      spell: 8
+
+    - minLevel: 15
+      maxLevel: 16
+      paralyzePoisonDeath: 4
+      petrifyPolymorph: 5
+      rodStaffOrWand: 6
+      breathWeapon: 4
+      spell: 7
+
+    - minLevel: 17
+      maxLevel: 99
+      paralyzePoisonDeath: 3
+      petrifyPolymorph: 4
+      rodStaffOrWand: 5
+      breathWeapon: 4
+      spell: 6
+
+  wizard:
+    - minLevel: 1
+      maxLevel: 5
+      paralyzePoisonDeath: 14
+      petrifyPolymorph: 13
+      rodStaffOrWand: 11
+      breathWeapon: 15
+      spell: 12
+
+    - minLevel: 6
+      maxLevel: 10
+      paralyzePoisonDeath: 13
+      petrifyPolymorph: 11
+      rodStaffOrWand: 9
+      breathWeapon: 13
+      spell: 10
+
+    - minLevel: 11
+      maxLevel: 15
+      paralyzePoisonDeath: 11
+      petrifyPolymorph: 9
+      rodStaffOrWand: 7
+      breathWeapon: 11
+      spell: 8
+
+    - minLevel: 16
+      maxLevel: 20
+      paralyzePoisonDeath: 10
+      petrifyPolymorph: 7
+      rodStaffOrWand: 5
+      breathWeapon: 9
+      spell: 6
+
+    - minLevel: 21
+      maxLevel: 99
+      paralyzePoisonDeath: 8
+      petrifyPolymorph: 5
+      rodStaffOrWand: 3
+      breathWeapon: 7
+      spell: 4
+
+  thief:
+    - minLevel: 1
+      maxLevel: 4
+      paralyzePoisonDeath: 13
+      petrifyPolymorph: 12
+      rodStaffOrWand: 14
+      breathWeapon: 16
+      spell: 15
+
+    - minLevel: 5
+      maxLevel: 8
+      paralyzePoisonDeath: 12
+      petrifyPolymorph: 11
+      rodStaffOrWand: 12
+      breathWeapon: 15
+      spell: 13
+
+    - minLevel: 9
+      maxLevel: 12
+      paralyzePoisonDeath: 11
+      petrifyPolymorph: 10
+      rodStaffOrWand: 10
+      breathWeapon: 14
+      spell: 11
+
+    - minLevel: 13
+      maxLevel: 16
+      paralyzePoisonDeath: 10
+      petrifyPolymorph: 9
+      rodStaffOrWand: 8
+      breathWeapon: 13
+      spell: 9
+
+    - minLevel: 17
+      maxLevel: 20
+      paralyzePoisonDeath: 9
+      petrifyPolymorph: 8
+      rodStaffOrWand: 6
+      breathWeapon: 12
+      spell: 7
+
+    - minLevel: 21
+      maxLevel: 99
+      paralyzePoisonDeath: 8
+      petrifyPolymorph: 7
+      rodStaffOrWand: 4
+      breathWeapon: 11
+      spell: 5
+
+  cleric:
+    - minLevel: 1
+      maxLevel: 3
+      paralyzePoisonDeath: 10
+      petrifyPolymorph: 13
+      rodStaffOrWand: 14
+      breathWeapon: 16
+      spell: 15
+
+    - minLevel: 4
+      maxLevel: 6
+      paralyzePoisonDeath: 9
+      petrifyPolymorph: 12
+      rodStaffOrWand: 13
+      breathWeapon: 15
+      spell: 14
+
+    - minLevel: 7
+      maxLevel: 9
+      paralyzePoisonDeath: 7
+      petrifyPolymorph: 10
+      rodStaffOrWand: 11
+      breathWeapon: 13
+      spell: 12
+
+    - minLevel: 10
+      maxLevel: 12
+      paralyzePoisonDeath: 6
+      petrifyPolymorph: 9
+      rodStaffOrWand: 10
+      breathWeapon: 12
+      spell: 11
+
+    - minLevel: 13
+      maxLevel: 15
+      paralyzePoisonDeath: 5
+      petrifyPolymorph: 8
+      rodStaffOrWand: 9
+      breathWeapon: 11
+      spell: 10
+
+    - minLevel: 16
+      maxLevel: 18
+      paralyzePoisonDeath: 4
+      petrifyPolymorph: 7
+      rodStaffOrWand: 8
+      breathWeapon: 10
+      spell: 9
+
+    - minLevel: 19
+      maxLevel: 99
+      paralyzePoisonDeath: 2
+      petrifyPolymorph: 5
+      rodStaffOrWand: 6
+      breathWeapon: 8
+      spell: 7

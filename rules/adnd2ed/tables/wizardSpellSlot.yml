@@ -1,0 +1,160 @@
+wizardSpellSlots:
+
+  - minLevel: 1
+    maxLevel: 1
+    slots:
+      level1: 1
+
+  - minLevel: 2
+    maxLevel: 2
+    slots:
+      level1: 2
+
+  - minLevel: 3
+    maxLevel: 3
+    slots:
+      level1: 2
+      level2: 1
+
+  - minLevel: 4
+    maxLevel: 4
+    slots:
+      level1: 3
+      level2: 2
+
+  - minLevel: 5
+    maxLevel: 5
+    slots:
+      level1: 4
+      level2: 2
+      level3: 1
+
+  - minLevel: 6
+    maxLevel: 6
+    slots:
+      level1: 4
+      level2: 2
+      level3: 2
+
+  - minLevel: 7
+    maxLevel: 7
+    slots:
+      level1: 4
+      level2: 3
+      level3: 2
+      level4: 1
+
+  - minLevel: 8
+    maxLevel: 8
+    slots:
+      level1: 4
+      level2: 3
+      level3: 3
+      level4: 2
+
+  - minLevel: 9
+    maxLevel: 9
+    slots:
+      level1: 4
+      level2: 3
+      level3: 3
+      level4: 2
+      level5: 1
+
+  - minLevel: 10
+    maxLevel: 10
+    slots:
+      level1: 4
+      level2: 4
+      level3: 3
+      level4: 2
+      level5: 2
+
+  - minLevel: 11
+    maxLevel: 11
+    slots:
+      level1: 4
+      level2: 4
+      level3: 4
+      level4: 3
+      level5: 3
+
+
+  - minLevel: 12
+    maxLevel: 12
+    slots:
+      level1: 4
+      level2: 4
+      level3: 4
+      level4: 4
+      level5: 4
+      level6: 1
+
+  - minLevel: 13
+    maxLevel: 13
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 4
+      level5: 4
+      level6: 2
+
+  - minLevel: 14
+    maxLevel: 14
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 4
+      level5: 4
+      level6: 2
+      level7: 1
+
+  - minLevel: 15
+    maxLevel: 15
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 5
+      level5: 5
+      level6: 2
+      level7: 1
+
+  - minLevel: 16
+    maxLevel: 16
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 5
+      level5: 5
+      level6: 3
+      level7: 2
+      level8: 1
+
+  - minLevel: 17
+    maxLevel: 17
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 5
+      level5: 5
+      level6: 3
+      level7: 3
+      level8: 2
+
+  - minLevel: 18
+    maxLevel: 18
+    slots:
+      level1: 5
+      level2: 5
+      level3: 5
+      level4: 5
+      level5: 5
+      level6: 3
+      level7: 3
+      level8: 2
+      level9: 1

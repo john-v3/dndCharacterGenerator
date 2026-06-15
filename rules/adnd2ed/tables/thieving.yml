@@ -1,0 +1,11 @@
+pickpocket: 15
+openLock: 10
+findRemoveTrap: 5
+moveSilently: 10
+hideInShadows: 5
+detectNoise: 15
+climbWalls: 60
+readLanguages: 0
+pointsPerLevel: 30
+skillIncreasePerLevelCap: 15
+level1Variance: 60
